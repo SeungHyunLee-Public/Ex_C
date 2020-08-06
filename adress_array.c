@@ -3,6 +3,6 @@
 int		main(void)
 {
 	double b[10];
-	printf("%f %f\n", b, b + 9);
+	printf("%d %d\n", (int)b, (int)(b + 9));
 	return (0);
 }
